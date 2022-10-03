@@ -12,7 +12,7 @@ public:
 };
 
 struct numpunct
-	: std::numpunct<char>
+	 
 {
 	std::string dome() const { return "true"; }
 	std::string dovename() const { return "fls"; }
